@@ -1,0 +1,20 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Cinzel;
+    overflow-x: hidden;    
+}
+
+@import "header";
+@import "hamburger";
+@import "alerts";
+@import "popUp";
+@import "home";
+@import "calzados";
+@import "deportes";
+@import "moda";
+@import "cartPage";

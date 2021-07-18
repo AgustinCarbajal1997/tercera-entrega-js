@@ -1,0 +1,277 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "article":"moda",
+            "title":"Nike Air Max LTD 3",
+            "smallImage":"app/assets/dbImages/nike-airmax-ltd.jpg",
+            "bigImage":"app/assets/dbImages/nike-airmax-ltd-big.png",
+            "price":16125.99,
+            "unites":"4",
+            "description":"En su upper, las Air Max LTD 3 combinan un chasis de malla con refuerzos de cuero sintético para darte toda la sujeción y transpirabilidad que necesitas. Un swoosh sobredimensionado en cada lado de estas zapatillas reafirma la tradición y el legado de años de producir los mejores artículos deportivos del mundo, mientras que el cierre de cordones añade más ojales para permitirte personalizar el agarre de manera óptima. Las Nike Air Max LTD 3 te brindan comodidad con una parte superior de cuero sintético real y amortiguación con una unidad Max Air debajo del talón. Los surcos flexibles en la suela exterior promueven un rango completo de movimiento para sus pies."
+        },
+        {
+            "id":2,
+            "article":"moda",
+            "title":"Nike Court Vision Low",
+            "smallImage":"app/assets/dbImages/nike-zapatillas-court-vision-low.jpg",
+            "bigImage":"app/assets/dbImages/nike-zapatillas-court-vision-low-big1.png",
+            "price":8741.99,
+            "unites":"4",
+            "description":"Con las zapatillas casuales Nike Court Vision Low, la prestigiosa marca americana une dos épocas. Lo mejor del estilo retro de los 80s se combina con la rapidez y la ligereza de hoy en unas zapatillas cómodas, confiables y precisas para entrenar en el gimnasio o pasear por la ciudad.Gran parte de la suavidad de las Court Vision Low se debe a su unidad de suela de goma, que combina una suela exterior rígida de patrón circular con una plantilla de EVA para garantizar tracción, amortiguación y estabilidad en cada paso.Con una combinación de cuero, cuero sintético y caucho, el diseño se inspira en las zapatillas de baloncesto de mediados de la década de 1980."
+        },
+        {
+            "id":3,
+            "article":"moda",
+            "title":"Nike Venture Runner Suede",
+            "smallImage":"app/assets/dbImages/nike-zapatillas-venture-runner-suede.jpg",
+            "bigImage":"app/assets/dbImages/nike-zapatillas-venture-runner-suede-big1.png",
+            "price":8404.99,
+            "unites":"6",
+            "description":"Como su nombre lo indica, el upper de las Venture Runner Suede ahora está hecho íntegramente en piel de ante, manteniendo la sujeción y la suavidad en el tacto y brindando una apariencia de élite. Una serie de detalles reflectantes - entre los que destacan un par de puntos en el antepié y el swoosh característico de la marca al dorso – te brindan mayor visibilidad y estilo, mientras que el cierre de cordones te da una sujeción adaptable y segura. Elevando el estilo OG con una plantilla acolchada y una parte superior de malla aireada, las Nike Venture Runner Suede hacen un guiño a las icónicas zapatillas para correr de los años 80 que iniciaron la revolución. "
+        },
+        {
+            "id":4,
+            "article":"moda",
+            "title":"Nike Air Max Excee",
+            "smallImage":"app/assets/dbImages/nike-zapatillas-air-max-excee.jpg",
+            "bigImage":"app/assets/dbImages/nike-zapatillas-air-max-excee-big1.png",
+            "price":8404.99,
+            "unites":"6",
+            "description":"Revive las glorias del pasado y explota todo tu potencial en el asfalto con las zapatillas de running Nike Air Max Excee. Inspiradas en los éxitos de la marca del swoosh durante los años 80 y 90, estas zapatillas reúnen un look clásico con un desempeño moderno e ideal para un primer entrenamiento. La unidad Zoom Air en el talón de las Air Max Excee no sólo cumple un objetivo estético; también te brinda una amortiguación suave y reactiva que te dará una carrera más relajada. El añadido de almohadillas de goma a lo largo de la jaula de la suela te brindará mayor comodidad cuando quieras bajar el ritmo y caminar por la ciudad. "
+        },
+        {
+            "id":5,
+            "article":"moda",
+            "title":"Nike Air Max Excee",
+            "smallImage":"app/assets/dbImages/nike-zapatillas-air-max-excee-blanca.jpg",
+            "bigImage":"app/assets/dbImages/nike-zapatillas-air-max-excee-blanca-big1.png",
+            "price":14781.99,
+            "unites":"7",
+            "description":"Revive las glorias del pasado y explota todo tu potencial en el asfalto con las zapatillas de running Nike Air Max Excee. Inspiradas en los éxitos de la marca del swoosh durante los años 80 y 90, estas zapatillas reúnen un look clásico con un desempeño moderno e ideal para un primer entrenamiento. La unidad Zoom Air en el talón de las Air Max Excee no sólo cumple un objetivo estético; también te brinda una amortiguación suave y reactiva que te dará una carrera más relajada. El añadido de almohadillas de goma a lo largo de la jaula de la suela te brindará mayor comodidad cuando quieras bajar el ritmo y caminar por la ciudad. "
+        },
+        {
+            "id":6,
+            "article":"moda",
+            "title":"Nike Air Max Excee",
+            "smallImage":"app/assets/dbImages/nike-air-max-excee-multicolor.jpg",
+            "bigImage":"app/assets/dbImages/nike-air-max-excee-multicolor-big1.png",
+            "price":14781.99,
+            "unites":"7",
+            "description":"Revive las glorias del pasado y explota todo tu potencial en el asfalto con las zapatillas de running Nike Air Max Excee. Inspiradas en los éxitos de la marca del swoosh durante los años 80 y 90, estas zapatillas reúnen un look clásico con un desempeño moderno e ideal para un primer entrenamiento. La unidad Zoom Air en el talón de las Air Max Excee no sólo cumple un objetivo estético; también te brinda una amortiguación suave y reactiva que te dará una carrera más relajada. El añadido de almohadillas de goma a lo largo de la jaula de la suela te brindará mayor comodidad cuando quieras bajar el ritmo y caminar por la ciudad. "
+        },
+        {
+            "id":7,
+            "article":"moda",
+            "title":"Adidas Forest Grove",
+            "smallImage":"app/assets/dbImages/moda1_small.jpg",
+            "bigImage":"app/assets/dbImages/moda1_big.png",
+            "price":8781.99,
+            "unites":"7",
+            "description":"Las zapatillas Adidas Forest Grove nacen inspiradas por las Oregon, modelo que marcó una época en el running. Su diseño rememora los inicios de la década del 80 con detalles de nobuk extrasuave y una mediasuela envuelta con red elástica 100% vintage. El añadido de almohadillas de goma a lo largo de la jaula de la suela te brindará mayor comodidad cuando quieras bajar el ritmo y caminar por la ciudad. "
+        },
+        {
+            "id":8,
+            "article":"moda",
+            "title":"adidas Superstar",
+            "smallImage":"app/assets/dbImages/moda2_small.jpg",
+            "bigImage":"app/assets/dbImages/moda2_big.png",
+            "price":13999.99,
+            "unites":"7",
+            "description":"Las zapatillas Adidas Forest Grove nacen inspiradas por las Oregon, modelo que marcó una época en el running. Su diseño rememora los inicios de la década del 80 con detalles de nobuk extrasuave y una mediasuela envuelta con red elástica 100% vintage. El añadido de almohadillas de goma a lo largo de la jaula de la suela te brindará mayor comodidad cuando quieras bajar el ritmo y caminar por la ciudad. "
+        },
+        {
+            "id":9,
+            "article":"moda",
+            "title":"Adidas Ultraboost 21 Primeblue",
+            "smallImage":"app/assets/dbImages/moda3_small.jpg",
+            "bigImage":"app/assets/dbImages/moda3_big.png",
+            "price":24.999,
+            "unites":"7",
+            "description":"Las zapatillas adidas Ultraboost 21 Primeblue está confeccionadas con Primeblue, un tejido reciclado de alto rendimiento creado con Parley Ocean Plastic. El 50% de la parte superior es textil y el 92% del tejido es de hilo Primeblue, mientras que la suela Stretchweb contiene compuesto de caucho Continental™. Su diseño no deja de ser una versión mejorada de un clásico que nació para el running y no conoce otra forma de medir su performance que en kilómetros recorridos. El sistema Linear Energy Push imprime un mayor impulso a cada zancada y proporciona mayor estabilidad en el antepié y el mediopié."
+        },
+        {
+            "id":10,
+            "article":"moda",
+            "title":"Adidas Ultraboost 20",
+            "smallImage":"app/assets/dbImages/moda4_small.jpg",
+            "bigImage":"app/assets/dbImages/moda4_big.png",
+            "price":24.999,
+            "unites":"7",
+            "description":"Las zapatillas Adidas Ultraboost 20 son un homenaje a la dedicación, el esfuerzo y el compromiso. En asociación con la NASA, adidas realizó experimentos en contextos sin gravedad para perfeccionar las mediasuelas Boost y su rendimiento en la Tierra. La máxima armonización de peso, amortiguación y capacidad de respuesta en un sólo calzado. La suela Stretchweb con compuesto de caucho Continental™ ayuda al increíble retorno de energía. Nuevos límites, nuevos desafíos. De eso se nutren las nuevas Ultraboost 20."
+        },
+        {
+            "id":11,
+            "article":"moda",
+            "title":"Adidas Nova Run X",
+            "smallImage":"app/assets/dbImages/moda5_small.jpg",
+            "bigImage":"app/assets/dbImages/moda5_big.png",
+            "price":9999.99,
+            "unites":"7",
+            "description":"Las zapatillas Adidas Ultraboost 20 son un homenaje a la dedicación, el esfuerzo y el compromiso. En asociación con la NASA, adidas realizó experimentos en contextos sin gravedad para perfeccionar las mediasuelas Boost y su rendimiento en la Tierra. La máxima armonización de peso, amortiguación y capacidad de respuesta en un sólo calzado. La suela Stretchweb con compuesto de caucho Continental™ ayuda al increíble retorno de energía. Nuevos límites, nuevos desafíos. De eso se nutren las nuevas Ultraboost 20."
+        },
+        {
+            "id":12,
+            "article":"moda",
+            "title":"Adidas Asweerun",
+            "smallImage":"app/assets/dbImages/moda6_small.jpg",
+            "bigImage":"app/assets/dbImages/moda6_big.png",
+            "price":8999.99,
+            "unites":"7",
+            "description":"Las zapatillas Adidas Asweerun poseen una parte superior de malla que favorecen la ventilación y mantienen tus pies frescos. La suela de goma brinda el agarre seguro para la superficie y el estabilizador moldeado del talón aporta estabilidad en terrenos irregulares. La suela Stretchweb con compuesto de caucho Continental™ ayuda al increíble retorno de energía. Nuevos límites, nuevos desafíos. De eso se nutren las nuevas Ultraboost 20."
+        },
+        {
+            "id":13,
+            "article":"running",
+            "title":"Nike Renew Run",
+            "smallImage":"app/assets/dbImages/running1_small.jpg",
+            "bigImage":"app/assets/dbImages/running1_big.png",
+            "price":14999.99,
+            "unites":"7",
+            "description":"Con las Zapatillas Nike Renew Run podés iniciar tu jornada de ejercicio con comodidad y estilo, la espuma suave te dará una mejor amortiguación en cada paso, mejor tracción cuando corrés o caminás. La unidad Zoom Air en el talón de las Air Max Excee no sólo cumple un objetivo estético; también te brinda una amortiguación suave y reactiva que te dará una carrera más relajada. El añadido de almohadillas de goma a lo largo de la jaula de la suela te brindará mayor comodidad cuando quieras bajar el ritmo y caminar por la ciudad. "
+        },
+        {
+            "id":14,
+            "article":"running",
+            "title":"Adidas EQ19 Run",
+            "smallImage":"app/assets/dbImages/running2_small.jpg",
+            "bigImage":"app/assets/dbImages/running2_big.png",
+            "price":14999.99,
+            "unites":"7",
+            "description":"Las zapatillas adidas EQ19 Run están confeccionadas en su parte exterior de textil y refuerzo de TPU. Su diseño sencillo incorpora sofisticaciones como la mediasuela Cloudfoam que genera un importante retorno de energía a tus pisadas. La suela exterior de goma flexible y duradera te proporcionan la tracción necesaria sobre cualquier superficie urbana, mientras que el ajuste con sistema de cordones te da el control personalizado que necesitas Un calzado para aquellos que necesiten confort, control y eficiencia en sus días de running. "
+        },
+        {
+            "id":15,
+            "article":"running",
+            "title":"Adidas Runfalcon 2.0",
+            "smallImage":"app/assets/dbImages/running3_small.jpg",
+            "bigImage":"app/assets/dbImages/running3_big.png",
+            "price":7999.99,
+            "unites":"7",
+            "description":"Las zapatillas Adidas Run Falcon 2.0 están confeccionadas en malla transpirable para que tus pies se sientan más frescos, mientras que la suela tipo cupsole de caucho ofrece estabilidad para que corras y uses durante todo el día sin sentir desgaste en las plantas de tus pies. La suela exterior de goma flexible y duradera te proporcionan la tracción necesaria sobre cualquier superficie urbana, mientras que el ajuste con sistema de cordones te da el control personalizado que necesitas Un calzado para aquellos que necesiten confort, control y eficiencia en sus días de running.La suela exterior de goma flexible y duradera te proporcionan la tracción necesaria sobre cualquier superficie urbana, mientras que el ajuste con sistema de cordones te da el control personalizado que necesitas Un calzado para aquellos que necesiten confort, control y eficiencia en sus días de running "
+        },
+        {
+            "id":16,
+            "article":"running",
+            "title":"Puma Wired Cage",
+            "smallImage":"app/assets/dbImages/running4_small.jpg",
+            "bigImage":"app/assets/dbImages/running4_big.png",
+            "price":9999.99,
+            "unites":"7",
+            "description":"Las zapatillas Puma Wired Cage no pueden faltar en tu outfit para salir a correr. Diseñado con malla transpirable para mayor frescura en tus pies, posee cordones para un ajuste personalizado y un elástico en la zona media para mayor soporte durante la carrera. Su suela de goma te proporciona una mejor tracción mientras que su plantilla SoftFoam+ te asegura una mayor amortiguación.SoftFoam+: cómoda plantilla de PUMA para una comodidad instantánea y duradera que proporciona una amortiguación suave a cada paso. "
+        },
+        {
+            "id":17,
+            "article":"running",
+            "title":"Nike Revolution 5",
+            "smallImage":"app/assets/dbImages/running5_small.jpg",
+            "bigImage":"app/assets/dbImages/running5_big.png",
+            "price":9999.99,
+            "unites":"7",
+            "description":"A toda velocidad ganale al cronometro con las Zapatillas Nike Revolution 5, inspiradas en las nike revolution 4 día, su rediseño moderno trae como novedad la ligereza extrema, su capellada de knit de punto te da sujeción transpirable y frescura; las superposiciones sin costuras, su entresuela de espuma y los huecos de la suela te permiten flexionar el pie de manera natural dándote mejor amortiguación en cada paso que des."
+        },
+        {
+            "id":18,
+            "article":"running",
+            "title":"Adidas Solar Glide",
+            "smallImage":"app/assets/dbImages/running6_small.jpg",
+            "bigImage":"app/assets/dbImages/running6_big.png",
+            "price":9599.99,
+            "unites":"7",
+            "description":"Las Zapatillas adidas Solar Glide son esenciales para salir a correr y alcanzar al máximo tus metas. Estas zapatillas cuentan con amortiguación energizada que se combina con una suela flexible para ofrecer pasos suaves y llenos de comodidad. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":19,
+            "article":"running",
+            "title":"Nike Revolution 5",
+            "smallImage":"app/assets/dbImages/running7_small.jpg",
+            "bigImage":"app/assets/dbImages/running7_big.png",
+            "price":9599.99,
+            "unites":"7",
+            "description":"Las Zapatillas adidas Solar Glide son esenciales para salir a correr y alcanzar al máximo tus metas. Estas zapatillas cuentan con amortiguación energizada que se combina con una suela flexible para ofrecer pasos suaves y llenos de comodidad. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":20,
+            "article":"running",
+            "title":"Nike Air Zoom Pegasus 37",
+            "smallImage":"app/assets/dbImages/running8_small.jpg",
+            "bigImage":"app/assets/dbImages/running8_big.png",
+            "price":19999.99,
+            "unites":"7",
+            "description":"Las zapatillas Nike Air Zoom Pegasus 37 nacieron para brindar una experiencia superior a la hora de hacer running. Confeccionadas con la espuma Nike React para pisadas con mayor rebote y la unidad Air Zoom que duplica el tamaño de versiones anteriores para una mejor amortiguación al correr. Llegar más lejos nunca fue tan fácil. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":21,
+            "article":"running",
+            "title":"Nike Air Zoom Pegasus 37",
+            "smallImage":"app/assets/dbImages/running9_small.jpg",
+            "bigImage":"app/assets/dbImages/running9_big.png",
+            "price":19999.99,
+            "unites":"7",
+            "description":"Las zapatillas Nike Air Zoom Pegasus 37 nacieron para brindar una experiencia superior a la hora de hacer running. Confeccionadas con la espuma Nike React para pisadas con mayor rebote y la unidad Air Zoom que duplica el tamaño de versiones anteriores para una mejor amortiguación al correr. Llegar más lejos nunca fue tan fácil. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":22,
+            "article":"futbol",
+            "title":"Nike Superfly 7 Academy Tf",
+            "smallImage":"app/assets/dbImages/futbol1_small.jpg",
+            "bigImage":"app/assets/dbImages/futbol1_big.png",
+            "price":10999.99,
+            "unites":"7",
+            "description":"Los botines Nike Superfly 7 Academy nacieron para que te conviertas en el mejor dentro de la cancha. Un diseño exclusivo, audaz y cómodo te permitirán sentir el control y la precisión que necesitas, además de contar con un calzado liviano para cambiar tu ritmo de juego cuando lo necesites. Llegar más lejos nunca fue tan fácil. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":23,
+            "article":"futbol",
+            "title":"Adidas Predator Freak.4 TF",
+            "smallImage":"app/assets/dbImages/futbol2_small.jpg",
+            "bigImage":"app/assets/dbImages/futbol2_big.png",
+            "price":13999.99,
+            "unites":"7",
+            "description":"Los botines Adidas Predator Freak.4 TF están confeccionados en tejido revestido y materiales sintéticos. Diseñados de corte medio con elementos Demoscale impresos en 3D para un estilo que genere puro miedo en la cancha. Hechos para césped sintético. Llegar más lejos nunca fue tan fácil. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":24,
+            "article":"futbol",
+            "title":"Nike Superfly 7 Academy MG",
+            "smallImage":"app/assets/dbImages/futbol3_small.jpg",
+            "bigImage":"app/assets/dbImages/futbol3_big.png",
+            "price":9999.99,
+            "unites":"7",
+            "description":"Los botines Nike Superfly 7 Academy nacieron para que te conviertas en el mejor dentro de la cancha. Un diseño exclusivo, audaz y cómodo te permitirán sentir el control y la precisión que necesitas, además de contar con un calzado liviano para cambiar tu ritmo de juego cuando lo necesites. Llegar más lejos nunca fue tan fácil. El exterior de malla transpirable está diseñado para dar soporte y estirarse mientras te moves para brindar un ajuste óptimo."
+        },
+        {
+            "id":25,
+            "article":"futbol",
+            "title":"Nike Phantom GT Academy Dynamic Fit FG/MG",
+            "smallImage":"app/assets/dbImages/futbol4_small.jpg",
+            "bigImage":"app/assets/dbImages/futbol4_big.png",
+            "price":14999.99,
+            "unites":"7",
+            "description":"Los botines Nike Phantom GT Academy Dynamic Fit FG/MG están confeccionados en cuero sintético texturizado para un mayor agarre y durabilidad. El análisis con atletas en el Nike Sport Research Lab trajo como resultado una textura de agarre más gruesa y densa en el empeine como también en la punta para brindarte un mejor toque en pases, regates y tiros. El cuello Dynamic Fit envuelve su tobillo para un ajuste más cómodo y seguro. Hechos para césped natural o artificial."
+        },
+        {
+            "id":26,
+            "article":"futbol",
+            "title":"Nike Phantom Vision 2 Pro Dynamic Fit Fg",
+            "smallImage":"app/assets/dbImages/futbol5_small.jpg",
+            "bigImage":"app/assets/dbImages/futbol5_big.png",
+            "price":18999.99,
+            "unites":"7",
+            "description":"Los botines Nike Phantom GT Academy Dynamic Fit FG/MG están confeccionados en cuero sintético texturizado para un mayor agarre y durabilidad. El análisis con atletas en el Nike Sport Research Lab trajo como resultado una textura de agarre más gruesa y densa en el empeine como también en la punta para brindarte un mejor toque en pases, regates y tiros. El cuello Dynamic Fit envuelve su tobillo para un ajuste más cómodo y seguro. Hechos para césped natural o artificial."
+        },
+        {
+            "id":27,
+            "article":"futbol",
+            "title":"Adidas X Ghosted.3 Fg",
+            "smallImage":"app/assets/dbImages/futbol6_small.jpg",
+            "bigImage":"app/assets/dbImages/futbol6_big.png",
+            "price":10999.99,
+            "unites":"7",
+            "description":"Los botines Adidas X Ghosted.3 FG te brindan máxima velocidad sobre terreno firme. Ver la pelota para vos será fácil, para tus rivales imposible Su diseño exterior de malla ligera y lengüeta flexible lo vuelven un calzado fácil de colocar y cómodo de sentir. Hechos para correr a toda velocidad sobre terreno firme. El cuello Dynamic Fit envuelve su tobillo para un ajuste más cómodo y seguro. Hechos para césped natural o artificial."
+        }
+        
+    ]
+
+   
+}

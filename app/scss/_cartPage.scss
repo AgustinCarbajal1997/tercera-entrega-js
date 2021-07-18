@@ -1,0 +1,363 @@
+.section-carrito{
+    width: 100%;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 20%;
+    .carrito-title{
+        padding-left: 1rem;
+        
+        font-size: 3rem;
+        color: rgb(70, 70, 70);
+        font-family: sans-serif;
+        
+    }
+    .carrito-productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        border-top: darkgrey 1px solid;
+        
+        .carrito-producto{
+            padding: 0;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            border: darkgrey 1px solid;
+            .carrito-producto__image{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+                
+                img{
+                    width: 60%;
+                    height: auto;
+                }
+            }
+            h3{
+                padding: 0;
+                font-family: sans-serif;
+                padding: 1rem;
+                color: rgb(70, 70, 70);
+            }
+            .carrito-quantity-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: transparent;
+                color: rgb(70, 70, 70);
+                div{
+                    cursor: pointer;
+                    border-radius: 20%;
+                    padding: 5px;
+                    background-color: transparent;
+                    border: 2px solid rgb(70, 70, 70);
+                    margin: 10px;
+                    
+                }
+                h4{
+                    font-size: 1.5rem;
+                }
+                .button-delete-cart{
+                    color: darkred;
+                    border: darkred 2px solid;
+                }
+            }
+        }
+    }
+    .sumatoria-total{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card-addition-cart{
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-areas: "info total"
+                                 "button button";
+            align-items:center;
+            
+            
+            .total-information-cart{
+                text-align: left;
+                grid-area: info;
+                font-family: sans-serif;
+                font-size: 1.5rem;
+                color: rgb(70, 70, 70);
+            }
+            .final-total-cart{
+                font-family: sans-serif;
+                color: rgb(70, 70, 70);
+                grid-area:total;
+                text-align: right;
+            }
+            .button-buy-cart{
+                grid-area: button;
+                border: 2px solid rgb(9, 54, 73);
+                background-color: rgb(9, 54, 73);
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 400;
+                border-radius: 0px;
+                padding: 10px;
+                cursor: pointer;
+                transition: all .2s ease-out;
+            }
+            .button-buy-cart:hover{
+                background-color: white;
+                color: rgb(9, 54, 73);
+            }
+        }
+    }
+}
+
+.without-products{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h2{
+        font-family: sans-serif;
+        letter-spacing: 2px;
+    }
+    a{
+        text-decoration: none;
+        border: 3px solid crimson;
+        background-color: crimson;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+        transition: all .5s ease-out;
+        font-family: sans-serif;
+    }
+    a:hover{
+        background-color: white;
+        color: crimson;
+    }
+
+    
+}
+
+.section-fav{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .favs-productos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .favs-producto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .favs-producto__image{
+                img{
+                    width: 90%;
+                }
+            }
+            h3{
+                padding: 2rem;
+                font-family: sans-serif;
+                color: rgb(70, 70, 70);
+            }
+        }
+    }
+}
+
+@media screen and (min-width:550px){
+    .section-carrito{
+        
+        .carrito-productos{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 10px;
+            border:none
+        }
+
+    }
+}
+
+
+@media screen and (min-width:1050px){
+    .section-carrito{
+        width: 95%;
+        padding-top: 2rem;
+        padding-bottom: 0;
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-areas: "title title"
+                              "products total";
+        
+        .carrito-title{
+            padding-left: 2rem;
+            grid-area: title;
+            font-size: 3rem;
+            color: rgb(70, 70, 70);
+            font-family: sans-serif;
+            
+        }
+        .carrito-productos{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-area: products;
+            border-top: darkgrey 1px solid;
+            .carrito-producto{
+                padding: 0;
+                display: grid;
+                border:none;    
+                grid-template-columns: repeat(4,1fr);
+                .carrito-producto__image{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    width: 100%;
+                    
+                    img{
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                h3{
+                    padding: 0;
+                    font-family: sans-serif;
+                    padding: 1rem;
+                    color: rgb(70, 70, 70);
+                }
+                .carrito-quantity-container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    color: rgb(70, 70, 70);
+                    div{
+                        cursor: pointer;
+                        border-radius: 20%;
+                        padding: 5px;
+                        background-color: transparent;
+                        border: 2px solid rgb(70, 70, 70);
+                        margin: 10px;
+                        
+                    }
+                    h4{
+                        font-size: 1.5rem;
+                    }
+                    .button-delete-cart{
+                        color: darkred;
+                        border: darkred 2px solid;
+                    }
+                }
+            }
+        }
+        .sumatoria-total{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            grid-area: total;
+            .card-addition-cart{
+                display: grid;
+                grid-template-columns: 50%;
+                grid-template-areas: "info total"
+                                     "button button";
+                align-items:center;
+                
+                
+                .total-information-cart{
+                    text-align: left;
+                    grid-area: info;
+                    font-family: sans-serif;
+                    font-size: 1.5rem;
+                    color: rgb(70, 70, 70);
+                }
+                .final-total-cart{
+                    grid-area:total;
+                    text-align: right;
+                }
+                .button-buy-cart{
+                    grid-area: button;
+                    border: 2px solid rgb(9, 54, 73);
+                    background-color: rgb(9, 54, 73);
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    border-radius: 0px;
+                    padding: 10px;
+                    cursor: pointer;
+                    transition: all .2s ease-out;
+                }
+                .button-buy-cart:hover{
+                    background-color: white;
+                    color: rgb(9, 54, 73);
+                }
+            }
+        }
+    }
+
+    .without-products{
+        width: 90%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }
+        a{
+            text-decoration: none;
+            border: 3px solid crimson;
+            background-color: crimson;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            transition: all .5s ease-out;
+            font-family: sans-serif;
+        }
+        a:hover{
+            background-color: white;
+            color: crimson;
+        }
+    
+        
+    }
+    .section-fav{
+        width: 90%;
+        min-height: 100vh;
+        // border:2px solid crimson;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .favs-productos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .favs-producto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h3{
+                    padding: 2rem;
+                    font-family: sans-serif;
+                    color: rgb(70, 70, 70);
+                }
+            }
+        }
+    }
+}
