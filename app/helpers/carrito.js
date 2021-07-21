@@ -20,8 +20,10 @@ export class Carrito {
             const $main = document.getElementById("main"),
                 $divContainer = document.createElement("div"),
                 $divAlert = document.createElement("div"),
-                $title = document.createElement("h3");
-            
+                $title = document.createElement("h3"),
+                $badge = document.querySelector(".cart-badge");
+
+            $badge.textContent = carrito.length;
             $title.textContent = "Producto agregado al carrito";
             $divAlert.classList.add("alertAddCart");
             $divAlert.appendChild($title);

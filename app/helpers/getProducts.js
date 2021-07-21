@@ -1,23 +1,6 @@
 import { Carrito } from "./carrito.js";
 import { Favoritos } from "./favoritos.js";
-// GET PRODUCTS CON ASYNC AWAIT
-export const getProducts = async (article) => {
-    try {
-        let url = "app/db/db.json";
-        let response = await fetch(url);
-        let data = await response.json();
-        let productos = data.productos;
 
-        let consulta = productos.filter(el => el.article === article);
-        return consulta;
-
-        
-
-    } catch (error) {
-        console.log(error)
-    }
-
-}
 
 // get products con JQUERY AJAX
 export const getProductsJquery = (article) => {
@@ -27,7 +10,7 @@ export const getProductsJquery = (article) => {
             let data = response.productos;
             
             let consulta = data.filter(el => el.article === article);
-            console.log(consulta);
+        
 
             for (let  i= 0; i < consulta.length; i++) {
                 $(".section-products").append(`

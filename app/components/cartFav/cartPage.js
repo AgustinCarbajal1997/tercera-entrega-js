@@ -111,6 +111,7 @@ export const CartPage = () => {
 
         // evento click del boton eliminar
         $buttonDelete.addEventListener("click", ()=>{
+            const $badge = document.querySelector(".cart-badge"); //para actualizar el badge
             // remuevo el child y dejo de mostrarlo en pantalla
             $divData.removeChild($divProduct);
 
@@ -120,6 +121,7 @@ export const CartPage = () => {
           
           let newArrayProducts = cartProductsDelete.filter(newArray => newArray.id !== el.id);
 
+          $badge.textContent = newArrayProducts.length;
           // reinicio addition en 0 para volver a realizar la sumatoria del total
           finalTotal = 0;
 

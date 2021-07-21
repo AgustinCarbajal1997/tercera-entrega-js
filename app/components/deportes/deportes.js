@@ -1,5 +1,4 @@
 import { listBannerDeportes } from "./listBannerDeportes.js";
-import { calzadoProductos } from "../calzados/calzadosProductos.js";
 import { Banner, CarouselBanner } from "../../helpers/bannerCarousel.js";
 import { sectionPromo } from "../../helpers/sectionPromo.js";
 import { promoSectionDeportes } from "./promoSectionDeportes.js";

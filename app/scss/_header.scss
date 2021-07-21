@@ -190,18 +190,28 @@
             a{
                 text-decoration: none;
                 color: rgb(240, 240, 240);
-                font-size: 1.3rem;
+                font-size: 1.5rem;
                 padding: 1rem;
-                visibility: hidden;
-                opacity: 0;
-                transition: all .2s ease-out;
-                animation-name: cartFavs;
-                animation-delay: 1s;
-                animation-duration: 1s;
-                animation-fill-mode: forwards;
-                animation-timing-function: ease;
+                visibility: visible;
+                opacity: 1;
+                font-weight: 900;
+                
+                .cart-badge{
+                    text-align: right;
+                    width: 1.3rem;
+                    height: 1.3rem;
+                    color: rgb(240, 240, 240);
+                    margin: auto;
+                    padding: 0;
+                    border-radius: 50%;
+                    font-size: 1rem;
+                    font-family: sans-serif;
+                    font-weight: 600;
+                   
+                    
+                }
             }
-            a i:hover{
+            a span:hover{
                 transition: all .2s ease-out;
                 opacity: .8;
             }
@@ -230,16 +240,13 @@
             .navBar-socialMedia{
                 margin-bottom: 35%;
                 div{
+                    text-align: center;
                     font-size: 1.5rem;
                     margin-top: 1rem;
-                    visibility: hidden;
-                    opacity: 0;
+                    visibility: visible;
+                    opacity: 1;
                     color: rgb(240, 240, 240);
-                    animation-name: socialMedia;
-                    animation-delay: 1s;
-                    animation-duration: 1s;
-                    animation-fill-mode: forwards;
-                    animation-timing-function: ease;
+                    
                 }
                 div i:hover{
                     cursor: pointer;

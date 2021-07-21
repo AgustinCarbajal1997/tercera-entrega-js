@@ -9,6 +9,7 @@ import { Router } from "./components/Router.js";
 
 const $root = document.getElementById("root");
 export default function App(){
+    
     $root.innerHTML = null;
     $root.appendChild(Header());
     $root.appendChild(Menu());

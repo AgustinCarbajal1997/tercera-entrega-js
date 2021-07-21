@@ -190,18 +190,25 @@ body {
   .cart-favs a {
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 1rem;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.2s ease-out;
-    animation-name: cartFavs;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
   }
-  .cart-favs a i:hover {
+  .cart-favs a .cart-badge {
+    text-align: right;
+    width: 1.3rem;
+    height: 1.3rem;
+    color: #f0f0f0;
+    margin: auto;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  .cart-favs a span:hover {
     transition: all 0.2s ease-out;
     opacity: 0.8;
   }
@@ -231,16 +238,12 @@ body {
     margin-bottom: 35%;
   }
   .navBar .navBar-socialMedia div {
+    text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
     color: #f0f0f0;
-    animation-name: socialMedia;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
   }
   .navBar .navBar-socialMedia div i:hover {
     cursor: pointer;
@@ -3626,7 +3629,7 @@ body {
 }
 .section-carrito {
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 12vh;
   display: grid;
   grid-template-columns: 1fr;
   padding-bottom: 20%;
@@ -3661,6 +3664,7 @@ body {
 }
 .section-carrito .carrito-productos .carrito-producto h3 {
   padding: 0;
+  margin: auto;
   font-family: sans-serif;
   padding: 1rem;
   color: #464646;
@@ -3763,18 +3767,38 @@ body {
 .section-fav {
   width: 100%;
   min-height: 100vh;
-  margin-top: 80px;
+  padding-top: 12vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
+.section-fav .favoritos-title {
+  padding-left: 1rem;
+  grid-area: title;
+  font-size: 3rem;
+  color: #464646;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: left;
+}
 .section-fav .favs-productos {
+  border-top: darkgrey 1px solid;
+  width: 100%;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
+  align-items: center;
+  row-gap: 100px;
+}
+.section-fav .favs-productos .favs-producto {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.section-fav .favs-productos .favs-producto {
+.section-fav .favs-productos .favs-producto .favs-producto__image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3783,9 +3807,15 @@ body {
   width: 90%;
 }
 .section-fav .favs-productos .favs-producto h3 {
-  padding: 2rem;
   font-family: sans-serif;
   color: #464646;
+}
+.section-fav .favs-productos .favs-producto .favs-addToCart {
+  background-color: darkred;
+  padding: 3%;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 550px) {
@@ -3905,7 +3935,7 @@ body {
   }
 
   .without-products {
-    width: 90%;
+    width: 95%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -3935,28 +3965,13 @@ body {
   }
 
   .section-fav {
-    width: 90%;
+    width: 95%;
     min-height: 100vh;
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 0;
   }
-  .section-fav .favs-productos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-fav .favs-productos .favs-producto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .section-fav .favs-productos .favs-producto h3 {
-    padding: 2rem;
-    font-family: sans-serif;
-    color: #464646;
+  .section-fav .favoritos-title {
+    padding-left: 2rem;
   }
 }
 

@@ -8,9 +8,9 @@ export const NavBar = () => {
 
 
         
-        $facebook.innerHTML = `<i class="fab fa-facebook-square"></i>`;
-        $ig.innerHTML = `<i class="fab fa-instagram"></i>`;
-        $tw.innerHTML = `<i class="fab fa-twitter"></i>`;
+        $facebook.innerHTML = `<span class="iconify" data-icon="cib:facebook-f" data-inline="false"></span>`;
+        $ig.innerHTML = `<span class="iconify" data-icon="akar-icons:instagram-fill" data-inline="false"></span>`;
+        $tw.innerHTML = `<span class="iconify" data-icon="bytesize:twitter" data-inline="false"></span>`;
 
         $socialMedia.classList.add("navBar-socialMedia");
         $socialMedia.appendChild($facebook);

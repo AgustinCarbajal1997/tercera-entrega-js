@@ -1,5 +1,4 @@
 import { listBannerRunning } from "./listBannerRunning.js";
-import { calzadoProductos } from "./calzadosProductos.js";
 import { complementCardsRunning } from "./complementCardsRunning.js";
 import { Banner, CarouselBanner } from "../../helpers/bannerCarousel.js";
 import { sectionPromo } from "../../helpers/sectionPromo.js";
@@ -27,7 +26,6 @@ export const Calzados = () => {
 
 
 
-    // $calzados.appendChild(calzadoProductos("running"));
     $sectionProducts.classList.add("section-products");
     $calzados.appendChild($sectionProducts);
     getProductsJquery("running");
