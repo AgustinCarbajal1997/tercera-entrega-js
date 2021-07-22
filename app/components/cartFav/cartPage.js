@@ -16,7 +16,7 @@ export const CartPage = () => {
   let readCart = new Carrito();
   let cartProducts = readCart.getProducts(); //returna lista con productos del carrito
 
-  if (cartProducts) {
+  if (cartProducts.length > 0) {
     // si el carrito tiene productos, los pinta en pantalla
     cartProducts.forEach((el) => {
       const $divProduct = document.createElement("div"),
@@ -127,7 +127,8 @@ export const CartPage = () => {
 
           if(!newArrayProducts.length) {
             //   si el array esta vacio, devuelve 0
-            $total.textContent = `$${finalTotal};`;
+            $section.classList.add("without-products");
+            $section.innerHTML = `<h2>NO HAY PRODUCTOS EN EL CARRITO.</h2> <a href="#/">VOLVER A HOME</a>`;
           }else{
             //   si trae valores, se suman
               newArrayProducts.forEach(total => {

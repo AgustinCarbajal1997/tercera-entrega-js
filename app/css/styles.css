@@ -3856,23 +3856,19 @@ body {
 .without-products h2 {
   font-family: sans-serif;
   letter-spacing: 2px;
+  color: #464646;
 }
 .without-products a {
   text-decoration: none;
-  border: 3px solid crimson;
-  background-color: crimson;
+  border: 3px solid darkred;
+  background-color: darkred;
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
-  border-radius: 10px;
   padding: 10px;
   cursor: pointer;
   transition: all 0.5s ease-out;
   font-family: sans-serif;
-}
-.without-products a:hover {
-  background-color: white;
-  color: crimson;
 }
 
 .section-fav {
@@ -4047,7 +4043,7 @@ body {
 
   .without-products {
     width: 95%;
-    min-height: 100vh;
+    min-height: 88vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4056,23 +4052,19 @@ body {
   .without-products h2 {
     font-family: sans-serif;
     letter-spacing: 2px;
+    color: #464646;
   }
   .without-products a {
     text-decoration: none;
-    border: 3px solid crimson;
-    background-color: crimson;
+    border: 3px solid darkred;
+    background-color: darkred;
     color: white;
     font-size: 1.5rem;
     font-weight: 700;
-    border-radius: 10px;
     padding: 10px;
     cursor: pointer;
     transition: all 0.5s ease-out;
     font-family: sans-serif;
-  }
-  .without-products a:hover {
-    background-color: white;
-    color: crimson;
   }
 
   .section-fav {

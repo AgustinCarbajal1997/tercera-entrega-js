@@ -123,24 +123,21 @@
     h2{
         font-family: sans-serif;
         letter-spacing: 2px;
+        color:rgb(70, 70, 70);
     }
     a{
         text-decoration: none;
-        border: 3px solid crimson;
-        background-color: crimson;
+        border: 3px solid darkred;
+        background-color: darkred;
         color: white;
         font-size: 1.5rem;
         font-weight: 700;
-        border-radius: 10px;
         padding: 10px;
         cursor: pointer;
         transition: all .5s ease-out;
         font-family: sans-serif;
     }
-    a:hover{
-        background-color: white;
-        color: crimson;
-    }
+    
 
     
 }
@@ -333,7 +330,7 @@
 
     .without-products{
         width: 95%;
-        min-height: 100vh;
+        min-height: 88vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -341,24 +338,21 @@
         h2{
             font-family: sans-serif;
             letter-spacing: 2px;
+            color:rgb(70, 70, 70);
         }
         a{
             text-decoration: none;
-            border: 3px solid crimson;
-            background-color: crimson;
+            border: 3px solid darkred;
+            background-color: darkred;
             color: white;
             font-size: 1.5rem;
             font-weight: 700;
-            border-radius: 10px;
             padding: 10px;
             cursor: pointer;
             transition: all .5s ease-out;
             font-family: sans-serif;
         }
-        a:hover{
-            background-color: white;
-            color: crimson;
-        }
+        
     
         
     }
