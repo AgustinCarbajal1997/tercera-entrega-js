@@ -16,16 +16,16 @@ const Header = () => {
                 href: "#/"
             },
             {
-                item: "RUNNING",
-                href: "#/calzados"
-            },
-            {
                 item: "DEPORTES",
                 href: "#/deportes"
             },
             {
                 item: "MODA",
                 href: "#/moda"
+            },
+            {
+                item: "RUNNING",
+                href: "#/calzados"
             }
         ]
 

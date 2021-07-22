@@ -7,7 +7,9 @@ export const Banner = (listaBanner, className) => {
     listaBanner.forEach((el,index) => {
         const $divItem = document.createElement("div"),
             $img = document.createElement("img"),
-            $title = document.createElement("h2");
+            $title = document.createElement("h2"),
+            $divSmallPicture = document.createElement("div"),
+            $imgSmallPicture = document.createElement("img");
 
             $img.dataset.bannerimg = "";
             index === 0 && $img.classList.add(`banner${className}--image${index}`);
@@ -21,6 +23,13 @@ export const Banner = (listaBanner, className) => {
 
             index === 0 && $divItem.classList.add("isActive");
             
+            $imgSmallPicture.src = el.smallPicture;
+            $imgSmallPicture.alt = el.title;
+            $divSmallPicture.appendChild($imgSmallPicture);
+            $divSmallPicture.classList.add("banner-divSmallPicture");
+
+
+            $divItem.appendChild($divSmallPicture);
             $divItem.appendChild($img);
             $divItem.appendChild($title);
 
