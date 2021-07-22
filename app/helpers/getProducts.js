@@ -10,7 +10,10 @@ export const getProductsJquery = (article) => {
             let data = response.productos;
             
             let consulta = data.filter(el => el.article === article);
-        
+            
+            $(".section-products").append(`
+                <div class="searcher-container"><input type="text" placeholder="¿Qué estás buscando?" class="searcher"></div>
+            `)
 
             for (let  i= 0; i < consulta.length; i++) {
                 $(".section-products").append(`
@@ -89,8 +92,26 @@ export const getProductsJquery = (article) => {
                         let newFav = new Favoritos()
                         newFav.addFavs(dataFav);
                     })
+                    
+                    
 
-            }
+                }
+
+                // Buscador de productos. Cada vez que se presiona una tecla realiza una comparacion, si no coincide agrego clase search filter que tiene grid order lo mando al fondo y desaparezco con opacity y visibility. Si coincide, el valor de por defecto de grid order que es 0 me lo deja primero.
+                $(".searcher").on("keyup", (e)=>{
+                    const searcherProducts = document.querySelectorAll(".card-product .content-product h3"),
+                        cardProduct = document.querySelectorAll(".card-product");
+                    
+                    searcherProducts.forEach((el,index)=>{
+                        el.textContent.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase()) 
+                            ? cardProduct[index].classList.remove("searcher-filter")
+                            : cardProduct[index].classList.add("searcher-filter");
+                        
+                    })
+                })
+
+
+
         }
         
     })
