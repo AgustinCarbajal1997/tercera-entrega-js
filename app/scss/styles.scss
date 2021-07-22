@@ -9,6 +9,15 @@ body{
     overflow-x: hidden;    
 }
 
+::-webkit-scrollbar{
+    width: 9px;
+    background-color: rgb(70, 70, 70);
+}
+::-webkit-scrollbar-thumb{
+    
+    background: linear-gradient(transparent,rgb(117, 117, 117));
+    border-radius: 6px
+}
 @import "header";
 @import "hamburger";
 @import "alerts";

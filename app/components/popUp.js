@@ -13,7 +13,7 @@ export const PopUp = () => {
         $sectionPopUp.classList.add("container-popUp");
 
 
-        $popUpClose.innerHTML = `<i class="fas fa-times-circle"></i>`;
+        $popUpClose.innerHTML = `<i class="fas fa-times"></i>`;
         $popUp.appendChild($popUpClose);
 
         $popUpClose.addEventListener("click", ()=>{

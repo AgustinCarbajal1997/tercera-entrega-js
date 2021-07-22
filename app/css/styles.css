@@ -10,6 +10,16 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 9px;
+  background-color: #464646;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #757575);
+  border-radius: 6px;
+}
+
 .header {
   width: 100%;
   height: 12vh;
