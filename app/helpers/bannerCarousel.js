@@ -64,9 +64,8 @@ export const CarouselBanner = (className) => {
     $rightArrow = document.querySelector(".rightArrow i"),
     $leftArrow = document.querySelector(".leftArrow i");
 
-  document.addEventListener("click", (e) => {
-    // CAROUSEL HACIA LA DERECHA
-    if (e.target === $rightArrow) {
+    // funcion carousel hacia la derecha
+    const carouselNext = () =>{
       let current;
       for (let i = 0; i < $dataBanner.length; i++) {
         if ($dataBanner[i].classList.contains("isActive")) {
@@ -88,8 +87,10 @@ export const CarouselBanner = (className) => {
         $dataBanner[current].classList.add("isActive");
       }, 200);
     }
-    // CAROUSEL HACIA LA IZQUIERDA
-    if (e.target === $leftArrow) {
+
+
+    // funcion carousel hacia la izquierda
+    const carouselPrev = () => {
       let current;
       for (let i = 0; i < $dataBanner.length; i++) {
         if ($dataBanner[i].classList.contains("isActive")) {
@@ -110,7 +111,25 @@ export const CarouselBanner = (className) => {
         $dataBanner[current].classList.add("isActive");
       }, 200);
     }
+  
+
+  // dependiendo de que flecha active el evento, se ira hacia izquierda o derecha llamando a la funcion correspondiente
+  document.addEventListener("click", (e) => {
+    // CAROUSEL HACIA LA DERECHA
+    if (e.target === $rightArrow) {
+      carouselNext();
+    }
+    // CAROUSEL HACIA LA IZQUIERDA
+    if (e.target === $leftArrow) {
+      carouselPrev();
+    }
   });
+
+  // con un intervalo de 6 segundos, se van pasando los slides
+  setInterval(() => {
+    carouselNext()
+  }, 6000);
+
 };
 
 
