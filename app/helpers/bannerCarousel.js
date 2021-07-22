@@ -112,23 +112,36 @@ export const CarouselBanner = (className) => {
       }, 200);
     }
   
+  // con un intervalo de 6 segundos, se van pasando los slides
+  let intervalSlides = setInterval(() => {
+    carouselNext()
+  }, 6000);  
+
+  
 
   // dependiendo de que flecha active el evento, se ira hacia izquierda o derecha llamando a la funcion correspondiente
   document.addEventListener("click", (e) => {
     // CAROUSEL HACIA LA DERECHA
     if (e.target === $rightArrow) {
-      carouselNext();
+      carouselNext(); 
+      // ejecuto clear interval y reseteo el set interval para que cada vez que se presiona el boton, se comience el conteo de 0 hasta los 6 segundo
+      clearInterval(intervalSlides);
+      intervalSlides = setInterval(() => {
+        carouselNext()
+      }, 6000);
     }
     // CAROUSEL HACIA LA IZQUIERDA
     if (e.target === $leftArrow) {
       carouselPrev();
+
+      clearInterval(intervalSlides);
+      intervalSlides = setInterval(() => {
+        carouselNext()
+      }, 6000);
     }
   });
 
-  // con un intervalo de 6 segundos, se van pasando los slides
-  setInterval(() => {
-    carouselNext()
-  }, 6000);
+  
 
 };
 
