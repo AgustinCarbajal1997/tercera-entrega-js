@@ -8,7 +8,14 @@ body{
     font-family: Cinzel;
     overflow-x: hidden;    
 }
-
+main{
+    margin-top: 12vh;
+}
+@media screen and (min-width:1050px){
+    main{
+        margin-top: 0;
+    }
+}
 ::-webkit-scrollbar{
     width: 9px;
     background-color: rgb(70, 70, 70);

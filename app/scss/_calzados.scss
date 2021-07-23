@@ -1,7 +1,7 @@
 .bannerRunning{
     width: 100%;
     
-    height: 100vh;
+    height: 88vh;
     
     
     overflow: hidden;
@@ -29,7 +29,8 @@
         
         .bannerRunning--image0{
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: contain;
             animation-name: bannerRunningImage0;
             animation-duration: 1s;
             animation-timing-function: ease;
@@ -48,7 +49,8 @@
         
         .bannerRunning--image1{
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: contain;
             animation-name: bannerRunningImage1;
             animation-duration: 1s;
             animation-timing-function: ease;
@@ -64,7 +66,8 @@
         }
         .bannerRunning--image2{
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: contain;
             animation-name: bannerRunningImage2;
             animation-duration: 1s;
             animation-timing-function: ease;
@@ -80,7 +83,8 @@
         }
         .bannerRunning--image3{
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: contain;
             animation-name: bannerRunningImage3;
             animation-duration: 1s;
             animation-timing-function: ease;
@@ -94,22 +98,7 @@
                 transform: translateX(0%);
             }
         }
-        .bannerRunning--image4{
-            width: 100%;
-            height: auto;
-            animation-name: bannerRunningImage4;
-            animation-duration: 1s;
-            animation-timing-function: ease;
-            animation-fill-mode: forwards;
-        }
-        @keyframes bannerRunningImage4 {
-            0%{
-                transform: translateX(-100%);
-            }
-            100%{
-                transform: translateX(0%);
-            }
-        }
+        
           
             
             
@@ -119,7 +108,7 @@
             position: absolute;
             bottom: 20%;
             left: 20%;
-            color: rgb(55, 17, 18);
+            color: rgb(102, 104, 114);
             
             z-index: -1;
             font-family: sans-serif;
@@ -147,7 +136,7 @@
             position: absolute;
             bottom: 20%;
             left: 20%;
-            color: rgb(1, 27, 42);
+            color: rgb(27, 27, 27);
             
             z-index: -1;
             font-family: sans-serif;
@@ -201,7 +190,7 @@
             position: absolute;
             bottom: 20%;
             left: 20%;
-            color: rgb(13, 12, 26);
+            color: rgb(0, 46, 62);
             z-index: -1;
             font-family: sans-serif;
             font-size: 2rem;
@@ -221,32 +210,7 @@
                 transform: translate(-20%,20%);
             }
         }
-        .bannerRunning--title4{
-            width: 100%;
-            text-align: center;
-            position: absolute;
-            bottom: 20%;
-            left: 20%;
-            color: rgb(13, 12, 26);
-            z-index: -1;
-            font-family: sans-serif;
-            font-size: 2rem;
-            letter-spacing: 5px;
-            animation-name: bannerRunningTitle4;
-            animation-duration: 1s;
-            animation-timing-function: ease;
-            animation-fill-mode: forwards;
-        }
-        @keyframes bannerRunningTitle4 {
-            0%{
-                
-                transform: translate(100%,20%);
-            }
-            100%{
-                
-                transform: translate(-20%,20%);
-            }
-        }
+        
 
         
     }
@@ -412,6 +376,10 @@
     }
 }
 
+
+
+
+
 @media screen and (min-width:1050px){
     .bannerRunning{
         width: 95%;
@@ -458,7 +426,7 @@
             
             .bannerRunning--image0{
                 width:auto;
-                height: auto;
+                height: 100%;
                 animation-name: bannerRunningImage0;
                 animation-duration: 1s;
                 animation-timing-function: ease;
@@ -477,7 +445,7 @@
             
             .bannerRunning--image1{
                 width: auto;
-                height: auto;
+                height: 100%;
                 animation-name: bannerRunningImage1;
                 animation-duration: 1s;
                 animation-timing-function: ease;
@@ -493,7 +461,7 @@
             }
             .bannerRunning--image2{
                 width: auto;
-                height: auto;
+                height: 100%;
                 
                 animation-name: bannerRunningImage2;
                 animation-duration: 1s;
@@ -510,7 +478,7 @@
             }
             .bannerRunning--image3{
                 width: auto;
-                height: auto;
+                height: 100%;
                 animation-name: bannerRunningImage3;
                 animation-duration: 1s;
                 animation-timing-function: ease;
@@ -524,22 +492,7 @@
                     transform: translateX(0%);
                 }
             }
-            .bannerRunning--image4{
-                width: auto;
-                height: auto;
-                animation-name: bannerRunningImage4;
-                animation-duration: 1s;
-                animation-timing-function: ease;
-                animation-fill-mode: forwards;
-            }
-            @keyframes bannerRunningImage4 {
-                0%{
-                    transform: translateX(-100%);
-                }
-                100%{
-                    transform: translateX(0%);
-                }
-            }
+            
               
                 
                 
@@ -549,7 +502,7 @@
                 position: absolute;
                 top: 0%;
                 left: 20%;
-                color: rgb(55, 17, 18);
+                color: rgb(102, 104, 114);
                 
                 z-index: -1;
                 font-family: sans-serif;
@@ -577,7 +530,7 @@
                 position: absolute;
                 top: 20%;
                 left: 20%;
-                color: rgb(1, 27, 42);
+                color: rgb(27, 27, 27);
                 
                 z-index: -1;
                 font-family: sans-serif;
@@ -631,7 +584,7 @@
                 position: absolute;
                 top: 20%;
                 left: 20%;
-                color: rgb(13, 12, 26);
+                color: rgb(0, 46, 62);
                 z-index: -1;
                 font-family: sans-serif;
                 font-size: 7rem;
@@ -651,32 +604,7 @@
                     transform: translate(-20%,20%);
                 }
             }
-            .bannerRunning--title4{
-                width: 100%;
-                text-align: center;
-                position: absolute;
-                top: 20%;
-                left: 20%;
-                color: rgb(13, 12, 26);
-                z-index: -1;
-                font-family: sans-serif;
-                font-size: 7rem;
-                letter-spacing: 10px;
-                animation-name: bannerRunningTitle4;
-                animation-duration: 1s;
-                animation-timing-function: ease;
-                animation-fill-mode: forwards;
-            }
-            @keyframes bannerRunningTitle4 {
-                0%{
-                    
-                    transform: translate(100%,20%);
-                }
-                100%{
-                    
-                    transform: translate(-20%,20%);
-                }
-            }
+            
 
             
         }
