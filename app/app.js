@@ -16,7 +16,7 @@ export default function App(){
     $root.appendChild(hamburgerMenu());
     $root.appendChild(NavBar());
     hamburgerIsActive();
-    // ScrollHeader();
+    
     $root.appendChild(PopUp());
     $root.appendChild(cartFavs());
     $root.appendChild(Main());
