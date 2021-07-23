@@ -989,7 +989,7 @@ main {
     transform: translate(-100%, 20%);
   }
   100% {
-    transform: translate(0%, 20%);
+    transform: translate(20%, 20%);
   }
 }
 .bannerHome .bannerHome--item .bannerHome--title3 {
@@ -1914,6 +1914,7 @@ main {
   width: 100%;
   color: whitesmoke;
   font-family: sans-serif;
+  text-align: center;
 }
 .promo-section-running .promo-section-running__content h3 {
   font-size: 2rem;
