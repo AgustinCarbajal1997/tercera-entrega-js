@@ -243,7 +243,7 @@
         {
             "id":25,
             "article":"futbol",
-            "title":"Nike Phantom GT Academy Dynamic Fit FG/MG",
+            "title":"Nike Phantom GT ",
             "smallImage":"app/assets/dbImages/futbol4_small.jpg",
             "bigImage":"app/assets/dbImages/futbol4_big.png",
             "price":14999.99,
@@ -253,7 +253,7 @@
         {
             "id":26,
             "article":"futbol",
-            "title":"Nike Phantom Vision 2 Pro Dynamic Fit Fg",
+            "title":"Nike Phantom Vision 2 ",
             "smallImage":"app/assets/dbImages/futbol5_small.jpg",
             "bigImage":"app/assets/dbImages/futbol5_big.png",
             "price":18999.99,
