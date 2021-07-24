@@ -12,6 +12,7 @@ export const Moda = () => {
     const $moda = document.createElement("div"),
     $sectionProducts = document.createElement("section");
 
+    // traigo el banner de moda
     const bannerHome = () => {
         return new Promise((resolve,reject) => {
             resolve($moda.appendChild(Banner(listBannerModa,"Moda")))
@@ -25,7 +26,7 @@ export const Moda = () => {
 
 
 
-    
+    $sectionProducts.dataset.visibility = ""; //data que permite el obersever del fade
     $sectionProducts.classList.add("section-products");
     $moda.appendChild($sectionProducts);
     getProductsJquery("moda");

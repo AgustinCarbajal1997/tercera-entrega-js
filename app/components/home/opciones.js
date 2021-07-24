@@ -67,6 +67,7 @@ export const opciones = () => {
     $cards.appendChild($fragment);
     
     $section.classList.add("options");
+    $section.dataset.visibility = "";
     $section.appendChild($cards);
 
     return $section;

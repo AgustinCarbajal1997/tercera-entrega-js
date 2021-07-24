@@ -13,6 +13,7 @@ export const Calzados = () => {
         $sectionProducts = document.createElement("section");
     
 
+    // traigo el banner de running
     const bannerHome = () => {
         return new Promise((resolve,reject) => {
             resolve($calzados.appendChild(Banner(listBannerRunning,"Running")))
@@ -25,7 +26,7 @@ export const Calzados = () => {
     carouselBannerHome();
 
 
-
+    $sectionProducts.dataset.visibility = ""; //data que permite el obersever del fade
     $sectionProducts.classList.add("section-products");
     $calzados.appendChild($sectionProducts);
     getProductsJquery("running");

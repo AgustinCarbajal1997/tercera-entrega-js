@@ -28,6 +28,7 @@ export const sectionPromo = (product,className) => {
     $fragment.appendChild($divImg);
 
     $section.classList.add(`promo-section-${className}`);
+    $section.dataset.visibility = ""; //data para el intersection observer
     $section.appendChild($fragment);
 
     $buttonSeeMore.addEventListener("click", ()=>{

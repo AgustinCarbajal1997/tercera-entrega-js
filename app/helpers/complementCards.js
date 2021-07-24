@@ -76,6 +76,7 @@ export const complementCards = (listCards,className) => {
     });
 
     $section.classList.add(`section-complement-${className}`);
+    $section.dataset.visibility = ""; //data para intersection observer
 
     return $section;
 }

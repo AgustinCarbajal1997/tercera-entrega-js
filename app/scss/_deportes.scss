@@ -274,7 +274,9 @@
     grid-template-columns: 1fr;
     
     background-color: #110101;
-    
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s ease-in-out;
 
     .promo-section-deportes__content{
         width: 100%;

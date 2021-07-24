@@ -89,6 +89,7 @@ export const SectionGrow = (listItems) => {
         })
 
         $sectionGrow.classList.add("sectionGrow");
+        $sectionGrow.dataset.visibility = "";
         $sectionGrow.appendChild($divGrowContainer);
 
     return $sectionGrow; 

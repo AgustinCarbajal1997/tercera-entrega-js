@@ -12,7 +12,7 @@ export const Deportes = () => {
     const $deportes = document.createElement("div"),
         $sectionProducts = document.createElement("section");
 
-
+// traigo el banner de deportes
     const bannerHome = () => {
         return new Promise((resolve,reject) => {
             resolve($deportes.appendChild(Banner(listBannerDeportes,"Deportes")))
@@ -25,7 +25,7 @@ export const Deportes = () => {
     carouselBannerHome();
 
 
-    
+    $sectionProducts.dataset.visibility = ""; //data que permite el obersever del fade
     $sectionProducts.classList.add("section-products");
     $deportes.appendChild($sectionProducts);
     getProductsJquery("futbol");

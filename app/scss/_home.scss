@@ -272,7 +272,9 @@
     width: 95%;
     margin-top: 10%;
     margin-bottom: 10%;
-    
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s ease-in-out;
     .options-card{
         display: flex;
         justify-content: center;
@@ -315,8 +317,9 @@
     grid-template-columns: 1fr;
     
     background-color: #620606;
-    
-
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s ease-in-out;
     .promo-section-home__content{
         width: 100%;
         color: whitesmoke;
@@ -363,6 +366,9 @@
     padding-top: 5%;
     padding-bottom: 5%;
     overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s ease-in-out;
     .section-complement-home__card{
         display: flex;
         justify-content: center;
@@ -746,7 +752,7 @@
 
         padding-top: 5%;
         padding-bottom: 5%;
-
+        
         .promo-section-home__content{
             width: 100%;
             color: whitesmoke;
@@ -815,7 +821,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        visibility: hidden;
+        opacity: 0;
+        transition: all .8s ease-in-out;
         .containerGrow{
             width: 80%;
             height: 80%;

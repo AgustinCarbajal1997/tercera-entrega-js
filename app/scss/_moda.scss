@@ -273,7 +273,9 @@
     grid-template-columns: 1fr;
     
     background-color: rgb(26, 31, 47);
-    
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s ease-in-out;
 
     .promo-section-moda__content{
         width: 100%;
