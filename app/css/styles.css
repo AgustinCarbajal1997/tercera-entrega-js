@@ -3659,12 +3659,167 @@ main {
   cursor: pointer;
 }
 
+.finishPurchase--container {
+  position: fixed;
+  inset: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+  height: 100vh;
+}
+.finishPurchase--container .finishPurchase {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+}
+.finishPurchase--container .finishPurchase .closePopUpCompra {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #464646;
+}
+.finishPurchase--container .finishPurchase label {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+  color: #464646;
+  width: 100%;
+  text-align: center;
+}
+.finishPurchase--container .finishPurchase input[type=text] {
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #464646;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.finishPurchase--container .finishPurchase .error-input {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 10%;
+  color: darkred;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.finishPurchase--container .finishPurchase .isActiveErrorInput {
+  visibility: visible;
+  opacity: 1;
+}
+.finishPurchase--container .finishPurchase input[type=submit] {
+  background-color: #093649;
+  color: white;
+  padding: 6%;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.finishPurchase--container .finalMessage {
+  padding: 1%;
+  background-color: #b3e5d1;
+  text-align: center;
+}
+.finishPurchase--container .finalMessage h3 {
+  font-size: 1.2rem;
+  color: #194d33;
+}
+
 @media screen and (min-width: 550px) {
   .section-carrito .carrito-productos {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
     border: none;
+  }
+
+  .finishPurchase--container {
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+  }
+  .finishPurchase--container .finishPurchase {
+    width: unset;
+    height: unset;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    max-height: 90vh;
+  }
+  .finishPurchase--container .finishPurchase .closePopUpCompra {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #464646;
+  }
+  .finishPurchase--container .finishPurchase label {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+    color: #464646;
+    width: 100%;
+    text-align: left;
+  }
+  .finishPurchase--container .finishPurchase input[type=text] {
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #464646;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .finishPurchase--container .finishPurchase .error-input {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10%;
+    color: darkred;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+  .finishPurchase--container .finishPurchase .isActiveErrorInput {
+    visibility: visible;
+    opacity: 1;
+  }
+  .finishPurchase--container .finishPurchase input[type=submit] {
+    background-color: #093649;
+    color: white;
+    padding: 6%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .finishPurchase--container .finalMessage {
+    padding: 1%;
+    background-color: #b3e5d1;
+    text-align: center;
+  }
+  .finishPurchase--container .finalMessage h3 {
+    font-size: 1.2rem;
+    color: #194d33;
   }
 }
 @media screen and (min-width: 1050px) {
@@ -3809,6 +3964,84 @@ main {
   }
   .section-fav .favoritos-title {
     padding-left: 2rem;
+  }
+
+  .finishPurchase--container {
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+  }
+  .finishPurchase--container .finishPurchase {
+    width: unset;
+    height: unset;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    max-height: 90vh;
+  }
+  .finishPurchase--container .finishPurchase .closePopUpCompra {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #464646;
+  }
+  .finishPurchase--container .finishPurchase label {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+    color: #464646;
+    width: 100%;
+    text-align: left;
+  }
+  .finishPurchase--container .finishPurchase input[type=text] {
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #464646;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .finishPurchase--container .finishPurchase .error-input {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10%;
+    color: darkred;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+  .finishPurchase--container .finishPurchase .isActiveErrorInput {
+    visibility: visible;
+    opacity: 1;
+  }
+  .finishPurchase--container .finishPurchase input[type=submit] {
+    background-color: #093649;
+    color: white;
+    padding: 6%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .finishPurchase--container .finalMessage {
+    padding: 1%;
+    background-color: #b3e5d1;
+    text-align: center;
+  }
+  .finishPurchase--container .finalMessage h3 {
+    font-size: 1.2rem;
+    color: #194d33;
   }
 }
 

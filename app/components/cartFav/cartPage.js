@@ -1,4 +1,5 @@
 import { Carrito } from "../../helpers/carrito.js";
+import { popUpCompra } from "./popUpCompra.js";
 
 export const CartPage = () => {
   // SE CARGAN LOS DATOS QUE VIENEN DEL CARRITO DE LOCALSTORAGE
@@ -14,7 +15,7 @@ export const CartPage = () => {
   let finalTotal = 0;
 
   let readCart = new Carrito();
-  let cartProducts = readCart.getProducts(); //returna lista con productos del carrito
+  let cartProducts = readCart.getProducts() || []; //returna lista con productos del carrito
 
   if (cartProducts.length > 0) {
     // si el carrito tiene productos, los pinta en pantalla
@@ -183,22 +184,7 @@ export const CartPage = () => {
     $buttonBuy.classList.add("button-buy-cart");
     $buttonBuy.textContent = "FINALIZAR COMPRA";
     $buttonBuy.addEventListener("click", ()=>{
-        const $main = document.getElementById("main"),
-        $divContainer = document.createElement("div"),
-        $divAlert = document.createElement("div"),
-        $title = document.createElement("h3");
-    
-        $title.textContent = "Muchas gracias por tu compra";
-        $divAlert.classList.add("alertAddCart");
-        $divAlert.appendChild($title);
-        $divContainer.classList.add("alertAddCart--container");
-        $divContainer.appendChild($divAlert);
-        
-        $main.insertAdjacentElement("afterbegin",$divContainer);
-
-        setTimeout(() => {
-            $main.removeChild($divContainer);
-        }, 1000);
+        popUpCompra();//pop up para finalizar la compra
     })
 
 
