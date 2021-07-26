@@ -1,3 +1,44 @@
+.loader-home-container{
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+    inset: 0;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    animation-name:fadeOutLoaderHome ;
+    animation-duration: .2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    .loader-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: rgb(70, 70, 70);
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        h3{
+            margin: 0;
+            font-size: .8rem;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+        }
+        
+    }
+}
+@keyframes fadeOutLoaderHome {
+    to{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+
 .bannerHome{
     width: 100%;
     

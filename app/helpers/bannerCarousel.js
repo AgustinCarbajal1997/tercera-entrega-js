@@ -112,10 +112,10 @@ export const CarouselBanner = (className) => {
       }, 200);
     }
   
-  // con un intervalo de 6 segundos, se van pasando los slides
+  // con un intervalo de 8 segundos, se van pasando los slides
   let intervalSlides = setInterval(() => {
     carouselNext()
-  }, 6000);  
+  }, 8000);  
 
   
 
@@ -124,11 +124,11 @@ export const CarouselBanner = (className) => {
     // CAROUSEL HACIA LA DERECHA
     if (e.target === $rightArrow) {
       carouselNext(); 
-      // ejecuto clear interval y reseteo el set interval para que cada vez que se presiona el boton, se comience el conteo de 0 hasta los 6 segundo
+      // ejecuto clear interval y reseteo el set interval para que cada vez que se presiona el boton, se comience el conteo de 0 hasta los 8 segundo
       clearInterval(intervalSlides);
       intervalSlides = setInterval(() => {
         carouselNext()
-      }, 6000);
+      }, 8000);
     }
     // CAROUSEL HACIA LA IZQUIERDA
     if (e.target === $leftArrow) {
@@ -137,7 +137,7 @@ export const CarouselBanner = (className) => {
       clearInterval(intervalSlides);
       intervalSlides = setInterval(() => {
         carouselNext()
-      }, 6000);
+      }, 8000);
     }
   });
 

@@ -1,0 +1,74 @@
+.loader-pages-container{
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+    inset: 0;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    animation-name:fadeOutLoaderPages ;
+    animation-duration: .2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    .loader-pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: rgb(70, 70, 70);
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        h2{
+            margin-bottom: 30px;
+        }
+        
+    }
+}
+@keyframes fadeOutLoaderPages {
+    to{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1050px){
+    .loader-pages-container{
+        width: 95%;
+        background-color: rgb(240, 240, 240);
+        position: fixed;
+        inset: 0;
+        z-index: 9999999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+        opacity: 1;
+        animation-name:fadeOutLoaderPages ;
+        animation-duration: .2s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+        .loader-pages{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: rgb(70, 70, 70);
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 3rem;
+            letter-spacing: 5px;
+            
+        }
+    }
+}

@@ -622,6 +622,72 @@ main {
     transition: right 0.125s ease-out, top 0.05s 0.125s linear, transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
+.loader-pages-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  position: fixed;
+  inset: 0;
+  z-index: 9999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  opacity: 1;
+  animation-name: fadeOutLoaderPages;
+  animation-duration: 0.2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.loader-pages-container .loader-pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #464646;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+.loader-pages-container .loader-pages h2 {
+  margin-bottom: 30px;
+}
+
+@keyframes fadeOutLoaderPages {
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .loader-pages-container {
+    width: 95%;
+    background-color: #f0f0f0;
+    position: fixed;
+    inset: 0;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    animation-name: fadeOutLoaderPages;
+    animation-duration: 0.2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  .loader-pages-container .loader-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #464646;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+}
 .alertAddCart--container {
   position: fixed;
   inset: 0;
@@ -825,6 +891,45 @@ main {
   .popUpIsActive {
     opacity: 1;
     visibility: visible;
+  }
+}
+.loader-home-container {
+  background-color: #f0f0f0;
+  position: fixed;
+  inset: 0;
+  z-index: 9999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  opacity: 1;
+  animation-name: fadeOutLoaderHome;
+  animation-duration: 0.2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.loader-home-container .loader-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #464646;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+.loader-home-container .loader-home h3 {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+@keyframes fadeOutLoaderHome {
+  to {
+    visibility: hidden;
+    opacity: 0;
   }
 }
 .bannerHome {
