@@ -1,3 +1,4 @@
+import { Footer } from "./components/footer.js";
 import { cartFavs } from "./components/header/cartFavs.js";
 import { hamburgerIsActive, hamburgerMenu } from "./components/header/hambuger-menu.js";
 import Header from "./components/header/header.js";
@@ -20,7 +21,7 @@ export default function App(){
     $root.appendChild(PopUp());
     $root.appendChild(cartFavs());
     $root.appendChild(Main());
-
+    $root.appendChild(Footer())
     Router()
 
 
